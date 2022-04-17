@@ -185,7 +185,7 @@ namespace Entidades
             string numAlReves = "";
             double numDecimal = 0;
             string retorno = "";
-            if(numero != "Valor inválido")
+            if(EsBinario(numero))
             {
                 for (int i = numero.Length - 1; i >= 0; i--) //doy vuelta la string 
                 {
