@@ -150,6 +150,11 @@ namespace Entidades
             {
                 nuevaString = "Valor inválido";
             }
+
+            if(numero == 0)
+            {
+                nuevaString = "0000";
+            }
             return nuevaString;
         }
         /// <summary>
