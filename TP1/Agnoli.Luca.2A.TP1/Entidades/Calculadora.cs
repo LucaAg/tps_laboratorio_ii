@@ -11,8 +11,8 @@ namespace Entidades
         /// <summary>
         /// Valida el operador pasado por parametro. Si no recibe un operando correcto lo inicializa en +.
         /// </summary>
-        /// <param name="operador"></param> Recibe el operador a validar.
-        /// <returns></returns> El operando validado.
+        /// <param name="operador"> Recibe el operador a validar.</param>
+        /// <returns> El operando validado.</returns>
         public static char ValidarOperador(char operador)
         {
             char operadorRetorno;
@@ -29,10 +29,10 @@ namespace Entidades
         /// <summary>
         /// Realiza la operacion entre 2 objetos Operando y el operador recibido por parametro.
         /// </summary>
-        /// <param name="num1"></param> Operando num1 que se operara.
-        /// <param name="num2"></param> Operando num2 que se operara.
-        /// <param name="operador"></param> operador que marcara la operacion a realizar.
-        /// <returns></returns> El resultado de la operacion.
+        /// <param name="num1"> Operando num1 que se operara.</param> 
+        /// <param name="num2"> Operando num2 que se operara.</param> 
+        /// <param name="operador"> Operador que marcara la operacion a realizar.</param>
+        /// <returns> El resultado de la operacion.</returns>
         public static double Operar(Operando num1, Operando num2, char operador)
         {
             double valorRetorno;
