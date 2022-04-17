@@ -61,7 +61,12 @@ namespace Entidades
         /// <returns></returns> Resultado de la multiplicacion
         public static double operator *(Operando n1, Operando n2)
         {
-            return n1.numero * n2.numero;  //sobrecargo '*'
+            double resultado = n1.numero * n2.numero;
+            if (resultado == -0)
+            {
+                resultado = 0;
+            }
+            return resultado;  //sobrecargo '*'
         }
 
         /// <summary>

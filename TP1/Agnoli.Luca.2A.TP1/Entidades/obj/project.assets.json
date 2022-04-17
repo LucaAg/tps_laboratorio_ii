@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nahue\\source\\repos\\Agnoli.Luca.2A.TP1\\Entidades\\Entidades.csproj",
+      "projectUniqueName": "C:\\Users\\Nahue\\Desktop\\Trabajo practicos II\\tps_laboratorio_ii\\TP1\\Agnoli.Luca.2A.TP1\\Entidades\\Entidades.csproj",
       "projectName": "Entidades",
-      "projectPath": "C:\\Users\\Nahue\\source\\repos\\Agnoli.Luca.2A.TP1\\Entidades\\Entidades.csproj",
+      "projectPath": "C:\\Users\\Nahue\\Desktop\\Trabajo practicos II\\tps_laboratorio_ii\\TP1\\Agnoli.Luca.2A.TP1\\Entidades\\Entidades.csproj",
       "packagesPath": "C:\\Users\\Nahue\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nahue\\source\\repos\\Agnoli.Luca.2A.TP1\\Entidades\\obj\\",
+      "outputPath": "C:\\Users\\Nahue\\Desktop\\Trabajo practicos II\\tps_laboratorio_ii\\TP1\\Agnoli.Luca.2A.TP1\\Entidades\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Nahue\\AppData\\Roaming\\NuGet\\NuGet.Config",
