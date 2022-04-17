@@ -94,25 +94,12 @@ namespace MiCalculadora
             Operando num2 = new Operando(txtNumero2.Text);
             lblResultado.Text = Calculadora.Operar(num1, num2, ope).ToString();
 
-            if (!(string.IsNullOrWhiteSpace(txtNumero1.Text)) && !(string.IsNullOrWhiteSpace(txtNumero2.Text)))
-            {
-                if(!(double.TryParse(txtNumero1.Text,out _)) )
-                {
-                    txtNumero1.Text = "0";
-
-                }
-                if(!(double.TryParse(txtNumero2.Text, out _)) )
-                {
-                    txtNumero2.Text = "0";
-                }
-            }
-
-            if (txtNumero1.Text == "")
+            if ((string.IsNullOrWhiteSpace(txtNumero1.Text)) || !(double.TryParse(txtNumero1.Text, out _)))
             {
                 txtNumero1.Text = "0";
             }
 
-            if (txtNumero2.Text == "")
+            if (string.IsNullOrWhiteSpace(txtNumero2.Text) || !(double.TryParse(txtNumero2.Text, out _)))
             {
                 txtNumero2.Text = "0";
             }
