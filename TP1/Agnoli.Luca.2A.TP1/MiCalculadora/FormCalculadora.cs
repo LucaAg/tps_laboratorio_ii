@@ -23,8 +23,8 @@ namespace MiCalculadora
         /// <summary>
         /// Limpia si hay valores cargados al inicio. A su vez, carga los operadores del comboBox.
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+        /// <param name="sender"> De clase System object, recibe al iniciador del evento</param>
+        /// <param name="e"> Datos del evento</param>
         private void FormCalculora_Load(object sender, EventArgs e)
         {
             Limpiar();
@@ -38,8 +38,8 @@ namespace MiCalculadora
         /// <summary>
         /// Al hacer click limpia los operando, operadores y resultados.
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+        /// <param name="sender"> De clase System object, recibe al iniciador del evento</param>
+        /// <param name="e"> Datos del evento</param>
         private void btnLimpiar_Click(object sender, EventArgs e)
         {
             Limpiar();
@@ -57,10 +57,10 @@ namespace MiCalculadora
         /// <summary>
         /// Realiza la operacion entre 2 numeros recibidos por el textbox, dependiendo de su operador
         /// </summary>
-        /// <param name="numero1"></param> string de numero para operar
-        /// <param name="numero2"></param> string de numero para operar
-        /// <param name="operador"></param> operador que asigna que tipo de operacion se realizara.
-        /// <returns></returns> El resultado de la operacion.
+        /// <param name="numero1">String de numero para operar</param>
+        /// <param name="numero2"> String de numero para operar</param> 
+        /// <param name="operador"> Operador que asigna que tipo de operacion se realizara.</param> 
+        /// <returns> El resultado de la operacion.</returns> 
         private static double Operar(string numero1, string numero2,string operador)
         {
             double resultado;
@@ -75,8 +75,8 @@ namespace MiCalculadora
         /// <summary>
         /// Al hacer click realiza la operacion asignada. Si el operador es vacio toma por default la operacion +.
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+        /// <param name="sender"> De clase System object, recibe al iniciador del evento</param>
+        /// <param name="e"> Datos del evento</param>
         private void btnOperar_Click(object sender, EventArgs e)
         {
             char ope;
@@ -110,8 +110,8 @@ namespace MiCalculadora
         /// <summary>
         /// Al hacer click convierte el resultado de las operaciones a binario.
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+        /// <param name="sender"> De clase System object, recibe al iniciador del evento</param>
+        /// <param name="e"> Datos del evento</param>
         private void btnConvertirABinario_Click(object sender, EventArgs e)
         {
             lblResultado.Text = Operando.DecimalBinario(lblResultado.Text);
@@ -120,8 +120,8 @@ namespace MiCalculadora
         /// <summary>
         /// Al hacre click convierte el resultaod de las operaciones a decimal.
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+        /// <param name="sender"> De clase System object, recibe al iniciador del evento</param>
+        /// <param name="e"> Datos del evento</param>
         private void btnConvertirADecimal_Click(object sender, EventArgs e)
         {
             lblResultado.Text = Operando.BinarioDecimal(lblResultado.Text);
@@ -129,8 +129,8 @@ namespace MiCalculadora
         /// <summary>
         /// Cierra el programa.
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+        /// <param name="sender"> De clase System object, recibe al iniciador del evento</param>
+        /// <param name="e"> Datos del evento</param>
         private void btnCerrar_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -138,8 +138,8 @@ namespace MiCalculadora
         /// <summary>
         /// Pregunta al usuario si quiere cerrar el progama o continuar en el.
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+        /// <param name="sender"> De clase System object, recibe al iniciador del evento</param>
+        /// <param name="e"> Datos del evento</param>
         private void FormCalculora_FormClosing(object sender, FormClosingEventArgs e)
         {
             DialogResult resultadoMensaje;
