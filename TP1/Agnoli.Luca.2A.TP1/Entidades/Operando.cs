@@ -151,7 +151,7 @@ namespace Entidades
                 nuevaString = "Valor inválido";
             }
 
-            if(numero == 0)
+            if(numero > -1 && numero < 1)
             {
                 nuevaString = "0000";
             }
