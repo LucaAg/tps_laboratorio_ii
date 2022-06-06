@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "FormsTP3/1.0.0": {
+        "dependencies": {
+          "BibliotecaIMA": "1.0.0"
+        },
+        "runtime": {
+          "FormsTP3.dll": {}
+        }
+      },
+      "BibliotecaIMA/1.0.0": {
+        "runtime": {
+          "BibliotecaIMA.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FormsTP3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BibliotecaIMA/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
