@@ -1,0 +1,12 @@
+C:\Users\Nahue\Desktop\UTN\PrograLaboII\Trabajo practicos II\tps_laboratorio_ii\TP3\Agnoli.Luca.2A.TPFinal\BibliotecaIMA\bin\Debug\net5.0\BibliotecaIMA.deps.json
+C:\Users\Nahue\Desktop\UTN\PrograLaboII\Trabajo practicos II\tps_laboratorio_ii\TP3\Agnoli.Luca.2A.TPFinal\BibliotecaIMA\bin\Debug\net5.0\BibliotecaIMA.dll
+C:\Users\Nahue\Desktop\UTN\PrograLaboII\Trabajo practicos II\tps_laboratorio_ii\TP3\Agnoli.Luca.2A.TPFinal\BibliotecaIMA\bin\Debug\net5.0\ref\BibliotecaIMA.dll
+C:\Users\Nahue\Desktop\UTN\PrograLaboII\Trabajo practicos II\tps_laboratorio_ii\TP3\Agnoli.Luca.2A.TPFinal\BibliotecaIMA\bin\Debug\net5.0\BibliotecaIMA.pdb
+C:\Users\Nahue\Desktop\UTN\PrograLaboII\Trabajo practicos II\tps_laboratorio_ii\TP3\Agnoli.Luca.2A.TPFinal\BibliotecaIMA\obj\Debug\net5.0\BibliotecaIMA.csproj.AssemblyReference.cache
+C:\Users\Nahue\Desktop\UTN\PrograLaboII\Trabajo practicos II\tps_laboratorio_ii\TP3\Agnoli.Luca.2A.TPFinal\BibliotecaIMA\obj\Debug\net5.0\BibliotecaIMA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nahue\Desktop\UTN\PrograLaboII\Trabajo practicos II\tps_laboratorio_ii\TP3\Agnoli.Luca.2A.TPFinal\BibliotecaIMA\obj\Debug\net5.0\BibliotecaIMA.AssemblyInfoInputs.cache
+C:\Users\Nahue\Desktop\UTN\PrograLaboII\Trabajo practicos II\tps_laboratorio_ii\TP3\Agnoli.Luca.2A.TPFinal\BibliotecaIMA\obj\Debug\net5.0\BibliotecaIMA.AssemblyInfo.cs
+C:\Users\Nahue\Desktop\UTN\PrograLaboII\Trabajo practicos II\tps_laboratorio_ii\TP3\Agnoli.Luca.2A.TPFinal\BibliotecaIMA\obj\Debug\net5.0\BibliotecaIMA.csproj.CoreCompileInputs.cache
+C:\Users\Nahue\Desktop\UTN\PrograLaboII\Trabajo practicos II\tps_laboratorio_ii\TP3\Agnoli.Luca.2A.TPFinal\BibliotecaIMA\obj\Debug\net5.0\BibliotecaIMA.dll
+C:\Users\Nahue\Desktop\UTN\PrograLaboII\Trabajo practicos II\tps_laboratorio_ii\TP3\Agnoli.Luca.2A.TPFinal\BibliotecaIMA\obj\Debug\net5.0\ref\BibliotecaIMA.dll
+C:\Users\Nahue\Desktop\UTN\PrograLaboII\Trabajo practicos II\tps_laboratorio_ii\TP3\Agnoli.Luca.2A.TPFinal\BibliotecaIMA\obj\Debug\net5.0\BibliotecaIMA.pdb
