@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPersona xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Persona>
+    <Nombre>Luca Nahuel</Nombre>
+    <Edad>22</Edad>
+    <FechaNacimiento>2000-02-22T00:00:00</FechaNacimiento>
+    <Apellido>Agnoli</Apellido>
+    <Dni>42417493</Dni>
+    <Sexo>Masculino</Sexo>
+    <GrupoSanguineo>A Positivo</GrupoSanguineo>
+    <Direccion>Moreno 1220</Direccion>
+    <NumeroTelefonico>1122831588</NumeroTelefonico>
+    <Plan xsi:type="PlanPremiun">
+      <ValorPlan>15000</ValorPlan>
+      <TipoPlan>Plan Premiun</TipoPlan>
+      <ConsultaDomiciliaria>ST</ConsultaDomiciliaria>
+      <ConsultaConsultorio>ST</ConsultaConsultorio>
+      <Kinesiologia>true</Kinesiologia>
+      <FonoAudiologia>true</FonoAudiologia>
+      <InternacionClinica>true</InternacionClinica>
+      <InternacionQuirurgicas>true</InternacionQuirurgicas>
+    </Plan>
+    <EstadoPlan>true</EstadoPlan>
+  </Persona>
+  <Persona>
+    <Nombre>Luciano</Nombre>
+    <Edad>30</Edad>
+    <FechaNacimiento>1993-09-16T00:00:00</FechaNacimiento>
+    <Apellido>Agnoli</Apellido>
+    <Dni>36336418</Dni>
+    <Sexo>No binario</Sexo>
+    <GrupoSanguineo>A Positivo</GrupoSanguineo>
+    <Direccion>Piedra buena 1996 </Direccion>
+    <NumeroTelefonico>1185967214</NumeroTelefonico>
+    <Plan xsi:type="PlanPremiun">
+      <ValorPlan>15000</ValorPlan>
+      <TipoPlan>Plan Premiun</TipoPlan>
+      <ConsultaDomiciliaria>ST</ConsultaDomiciliaria>
+      <ConsultaConsultorio>ST</ConsultaConsultorio>
+      <Kinesiologia>true</Kinesiologia>
+      <FonoAudiologia>true</FonoAudiologia>
+      <InternacionClinica>true</InternacionClinica>
+      <InternacionQuirurgicas>true</InternacionQuirurgicas>
+    </Plan>
+    <EstadoPlan>true</EstadoPlan>
+  </Persona>
+  <Persona>
+    <Nombre>Leonel</Nombre>
+    <Edad>28</Edad>
+    <FechaNacimiento>1996-06-29T00:00:00</FechaNacimiento>
+    <Apellido>Agnoli</Apellido>
+    <Dni>35363738</Dni>
+    <Sexo>Masculino</Sexo>
+    <GrupoSanguineo>0 Negativo</GrupoSanguineo>
+    <Direccion>Balcarce 841</Direccion>
+    <NumeroTelefonico>1587596862</NumeroTelefonico>
+    <Plan xsi:type="PlanPlus">
+      <ValorPlan>6000</ValorPlan>
+      <TipoPlan>Plan Plus</TipoPlan>
+      <ConsultaDomiciliaria>ST</ConsultaDomiciliaria>
+      <ConsultaConsultorio>ST</ConsultaConsultorio>
+      <Kinesiologia>true</Kinesiologia>
+      <FonoAudiologia>true</FonoAudiologia>
+      <InternacionClinica>false</InternacionClinica>
+      <InternacionQuirurgicas>false</InternacionQuirurgicas>
+    </Plan>
+    <EstadoPlan>true</EstadoPlan>
+  </Persona>
+  <Persona>
+    <Nombre>Adrian</Nombre>
+    <Edad>26</Edad>
+    <FechaNacimiento>1995-06-13T00:00:00</FechaNacimiento>
+    <Apellido>Gonzales</Apellido>
+    <Dni>25262728</Dni>
+    <Sexo>Masculino</Sexo>
+    <GrupoSanguineo>A Negativo</GrupoSanguineo>
+    <Direccion>Alvear 897</Direccion>
+    <NumeroTelefonico>1185971532</NumeroTelefonico>
+    <Plan xsi:type="PlanClasico">
+      <ValorPlan>3500</ValorPlan>
+      <TipoPlan>Plan Clasico</TipoPlan>
+      <ConsultaDomiciliaria>ST</ConsultaDomiciliaria>
+      <ConsultaConsultorio>ST</ConsultaConsultorio>
+      <Kinesiologia>true</Kinesiologia>
+      <FonoAudiologia>false</FonoAudiologia>
+      <InternacionClinica>false</InternacionClinica>
+      <InternacionQuirurgicas>false</InternacionQuirurgicas>
+    </Plan>
+    <EstadoPlan>false</EstadoPlan>
+  </Persona>
+  <Persona>
+    <Nombre>Leo</Nombre>
+    <Edad>59</Edad>
+    <FechaNacimiento>1958-05-01T00:00:00</FechaNacimiento>
+    <Apellido>Agnoli</Apellido>
+    <Dni>16262776</Dni>
+    <Sexo>Masculino</Sexo>
+    <GrupoSanguineo>B Negativo</GrupoSanguineo>
+    <Direccion>Alvear 714</Direccion>
+    <NumeroTelefonico>1544465137</NumeroTelefonico>
+    <Plan xsi:type="PlanPlus">
+      <ValorPlan>6000</ValorPlan>
+      <TipoPlan>Plan Plus</TipoPlan>
+      <ConsultaDomiciliaria>ST</ConsultaDomiciliaria>
+      <ConsultaConsultorio>ST</ConsultaConsultorio>
+      <Kinesiologia>true</Kinesiologia>
+      <FonoAudiologia>true</FonoAudiologia>
+      <InternacionClinica>false</InternacionClinica>
+      <InternacionQuirurgicas>false</InternacionQuirurgicas>
+    </Plan>
+    <EstadoPlan>false</EstadoPlan>
+  </Persona>
+  <Persona>
+    <Nombre>Josefina</Nombre>
+    <Edad>32</Edad>
+    <FechaNacimiento>1990-09-28T00:00:00</FechaNacimiento>
+    <Apellido>Armendia</Apellido>
+    <Dni>37596745</Dni>
+    <Sexo>Femenino</Sexo>
+    <GrupoSanguineo>A Negativo</GrupoSanguineo>
+    <Direccion>Alvear 159</Direccion>
+    <NumeroTelefonico>1522861495</NumeroTelefonico>
+    <Plan xsi:type="PlanPlus">
+      <ValorPlan>6000</ValorPlan>
+      <TipoPlan>Plan Plus</TipoPlan>
+      <ConsultaDomiciliaria>ST</ConsultaDomiciliaria>
+      <ConsultaConsultorio>ST</ConsultaConsultorio>
+      <Kinesiologia>true</Kinesiologia>
+      <FonoAudiologia>true</FonoAudiologia>
+      <InternacionClinica>false</InternacionClinica>
+      <InternacionQuirurgicas>false</InternacionQuirurgicas>
+    </Plan>
+    <EstadoPlan>true</EstadoPlan>
+  </Persona>
+  <Persona>
+    <Nombre>Perla</Nombre>
+    <Edad>21</Edad>
+    <FechaNacimiento>2001-04-27T00:00:00</FechaNacimiento>
+    <Apellido>Bonaventura</Apellido>
+    <Dni>43467894</Dni>
+    <Sexo>Femenino</Sexo>
+    <GrupoSanguineo>B Positivo</GrupoSanguineo>
+    <Direccion>Las vegas 3021</Direccion>
+    <NumeroTelefonico>1522296574</NumeroTelefonico>
+    <Plan xsi:type="PlanPremiun">
+      <ValorPlan>15000</ValorPlan>
+      <TipoPlan>Plan Premiun</TipoPlan>
+      <ConsultaDomiciliaria>ST</ConsultaDomiciliaria>
+      <ConsultaConsultorio>ST</ConsultaConsultorio>
+      <Kinesiologia>true</Kinesiologia>
+      <FonoAudiologia>true</FonoAudiologia>
+      <InternacionClinica>true</InternacionClinica>
+      <InternacionQuirurgicas>true</InternacionQuirurgicas>
+    </Plan>
+    <EstadoPlan>true</EstadoPlan>
+  </Persona>
+  <Persona>
+    <Nombre>Adriana</Nombre>
+    <Edad>25</Edad>
+    <FechaNacimiento>1996-08-29T00:00:00</FechaNacimiento>
+    <Apellido>Lopez</Apellido>
+    <Dni>50515253</Dni>
+    <Sexo>Femenino</Sexo>
+    <GrupoSanguineo>A Positivo</GrupoSanguineo>
+    <Direccion>Don Torcuato 859</Direccion>
+    <NumeroTelefonico>1158963785</NumeroTelefonico>
+    <Plan xsi:type="PlanPlus">
+      <ValorPlan>6000</ValorPlan>
+      <TipoPlan>Plan Plus</TipoPlan>
+      <ConsultaDomiciliaria>ST</ConsultaDomiciliaria>
+      <ConsultaConsultorio>ST</ConsultaConsultorio>
+      <Kinesiologia>true</Kinesiologia>
+      <FonoAudiologia>true</FonoAudiologia>
+      <InternacionClinica>false</InternacionClinica>
+      <InternacionQuirurgicas>false</InternacionQuirurgicas>
+    </Plan>
+    <EstadoPlan>true</EstadoPlan>
+  </Persona>
+</ArrayOfPersona>
