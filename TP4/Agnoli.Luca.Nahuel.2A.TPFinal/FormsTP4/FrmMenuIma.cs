@@ -225,7 +225,6 @@ namespace FormsTP4
         /// <param name="segundosTiempoJornada"></param>
         public void ComenzarCronometro(int segundosTiempoJornada)
         {
-            //int numeroBarra = 0;
             try
             {
                 CancellationTokenSource cancellation;
