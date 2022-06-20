@@ -18,3 +18,4 @@ insert into sucursales (localidad,numeroTelefono,direccion) values
 ('Don Bosco', 46484749, 'Nicaragua 35');
 
 select id as ID, localidad as Localidad, numeroTelefono as Telefono, direccion as Direccion from sucursales;
+
