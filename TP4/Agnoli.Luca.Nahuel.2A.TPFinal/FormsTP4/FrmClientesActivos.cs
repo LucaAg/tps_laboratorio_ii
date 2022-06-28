@@ -44,11 +44,11 @@ namespace FormsTP4
             {
                 CargarTextoPorDni();
             }
-            catch (ExcepcionPersonaNula ex)
+            catch (PersonaNulaException ex)
             {
                 MessageBox.Show($"{ex.ToString()}", "Persona no valida en el sistema", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            catch(ExcepcionCasillerosEnBlanco ex)
+            catch(CasillerosEnBlancoException ex)
             {
                 MessageBox.Show($"{ex.ToString()}", "Casilleros en blanco", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -73,12 +73,12 @@ namespace FormsTP4
                 }
                 else
                 {
-                    throw new ExcepcionPersonaNula($"La persona con DNI {txtFiltrarDni.Text} no se encuentra en el sistema o no esta activa", "FrmClientesActivos.cs", "btnBuscarPorDni_Click");
+                    throw new PersonaNulaException($"La persona con DNI {txtFiltrarDni.Text} no se encuentra en el sistema o no esta activa", "FrmClientesActivos.cs", "btnBuscarPorDni_Click");
                 }
             }
             else
             {
-                throw new ExcepcionCasillerosEnBlanco("Los campos de DNI no pueden estar vacios", "FrmClientesActivos.cs", "CargarTextoPorDni");
+                throw new CasillerosEnBlancoException("Los campos de DNI no pueden estar vacios", "FrmClientesActivos.cs", "CargarTextoPorDni");
             }
         }
         /// <summary>

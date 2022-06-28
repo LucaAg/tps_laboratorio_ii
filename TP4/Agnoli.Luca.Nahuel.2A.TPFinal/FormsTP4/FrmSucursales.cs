@@ -15,7 +15,7 @@ namespace FormsTP4
     public partial class FrmSucursales : Form
     {
         private List<Sucursales> listaSucursales;
-        private DelegadoCargarDatos miDelegado;
+        private DelegadoCargarDatos delegadoCargarDatos;
         /// <summary>
         /// Inicializa el formulario, el delegado y la lista de sucursales.
         /// </summary>
@@ -23,8 +23,8 @@ namespace FormsTP4
         {
             InitializeComponent();
             this.listaSucursales = new List<Sucursales>();
-            miDelegado = CargarLista;
-            miDelegado += CargarGridView;
+            delegadoCargarDatos = CargarLista;
+            delegadoCargarDatos += CargarGridView;
         }
         /// <summary>
         /// Llama a los metodos CargarRichTextBoxs.
@@ -33,7 +33,7 @@ namespace FormsTP4
         /// <param name="e"></param>
         private void frmSucursales_Load(object sender, EventArgs e)
         {
-            miDelegado.Invoke();
+            delegadoCargarDatos.Invoke();
         }
         /// <summary>
         /// Cierra el formulario.
@@ -110,7 +110,7 @@ namespace FormsTP4
         {
             try
             {
-                miDelegado.Invoke();
+                delegadoCargarDatos.Invoke();
             }
             catch (Exception ex)
             {

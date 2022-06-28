@@ -139,11 +139,11 @@ namespace FormsTP4
                     AccionConfirmarClick();
                 }             
             }
-            catch(ExcepcionCasillerosEnBlanco ex)
+            catch(CasillerosEnBlancoException ex)
             {
                 MessageBox.Show(ex.ToString(),"Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
             }
-            catch(ExcepcionPersonaNula ex)
+            catch(PersonaNulaException ex)
             {
                 MessageBox.Show(ex.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -175,7 +175,7 @@ namespace FormsTP4
                     }
                     else
                     {
-                        throw new ExcepcionPersonaNula("La persona no se encuentra en el sistema, o es nula", "FrmModificarDatos.cs", "AccionComfirmarClick");
+                        throw new PersonaNulaException("La persona no se encuentra en el sistema, o es nula", "FrmModificarDatos.cs", "AccionComfirmarClick");
                     }
                 }
                 else
@@ -186,7 +186,7 @@ namespace FormsTP4
             }
             else
             {
-                throw new ExcepcionCasillerosEnBlanco("No puede haber casilleros en blanco", "FrmModificarDatos.cs", "AccionComfirmarClick");
+                throw new CasillerosEnBlancoException("No puede haber casilleros en blanco", "FrmModificarDatos.cs", "AccionComfirmarClick");
             }
         }
         /// <summary>
