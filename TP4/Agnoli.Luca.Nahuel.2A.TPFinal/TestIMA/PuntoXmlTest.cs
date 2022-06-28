@@ -23,7 +23,7 @@ namespace TestIMA
         }
 
         [TestMethod]
-        [ExpectedException(typeof(ExcepcionArchivoInvalido))]
+        [ExpectedException(typeof(ArchivoInvalidoException))]
         public void PuntoXml_DeberiaLanzarMiExcepcionArchivoInvalido_SiElArchivoNoEsExiste()
         {
             //Arrange
@@ -31,7 +31,7 @@ namespace TestIMA
             PuntoTxt<string> xml = new PuntoTxt<string>();
             if (!xml.ValidarSiExisteElArchivo(ruta))
             {
-                throw new ExcepcionArchivoInvalido("Archivo invalido", "Error", "Test puntoJson");
+                throw new ArchivoInvalidoException("Archivo invalido", "Error", "Test puntoJson");
             }
         }
     }

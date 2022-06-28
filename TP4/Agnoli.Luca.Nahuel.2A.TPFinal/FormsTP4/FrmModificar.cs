@@ -59,11 +59,11 @@ namespace FormsTP4
             {
                 AccionConfirmarClick();
             }
-            catch (ExcepcionPersonaNula ex)
+            catch (PersonaNulaException ex)
             {
                 MessageBox.Show($"{ex.ToString()}", "Error al modificar", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            catch(ExcepcionCasillerosEnBlanco ex)
+            catch(CasillerosEnBlancoException ex)
             {
                 MessageBox.Show($"{ex.ToString()}", "Error al modificar",
                      MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -106,7 +106,7 @@ namespace FormsTP4
                     }
                     else
                     {
-                        throw new ExcepcionPersonaNula("Persona nula, no se encuentra en el sistema", "FrmModificar.cs", "AccionConfirmarClick");
+                        throw new PersonaNulaException("Persona nula, no se encuentra en el sistema", "FrmModificar.cs", "AccionConfirmarClick");
                     }
                 }
                 else
@@ -117,7 +117,7 @@ namespace FormsTP4
             }
             else
             {
-                throw new ExcepcionCasillerosEnBlanco("El texto no puede estar en blanco", "FrmModificar.cs", "AccionConfirmarClick");
+                throw new CasillerosEnBlancoException("El texto no puede estar en blanco", "FrmModificar.cs", "AccionConfirmarClick");
             }
         }
 

@@ -36,7 +36,7 @@ namespace BibliotecaIMA
             }
             else
             {
-                throw new ExcepcionArchivoInvalido("La ruta o la extension no son validas", "Guardar", "PuntoXml.cs");
+                throw new ArchivoInvalidoException("La ruta o la extension no son validas", "Guardar", "PuntoXml.cs");
             }
         }
 
@@ -54,7 +54,7 @@ namespace BibliotecaIMA
             }
             else
             {
-                throw new ExcepcionArchivoInvalido("La ruta o la extension no son validas", "GuardarComo", "PuntoXml.cs");
+                throw new ArchivoInvalidoException("La ruta o la extension no son validas", "GuardarComo", "PuntoXml.cs");
             }
         }
 
@@ -77,7 +77,7 @@ namespace BibliotecaIMA
             }
             else
             {
-                throw new ExcepcionArchivoInvalido("La ruta o la extension no son validas", "Leer", "PuntoXml.cs");
+                throw new ArchivoInvalidoException("La ruta o la extension no son validas", "Leer", "PuntoXml.cs");
             }
         }
 

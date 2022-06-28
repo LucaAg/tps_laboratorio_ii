@@ -118,11 +118,11 @@ namespace FormsTP4
             {
                 AccionDarAlta();
             }
-            catch (ExcepcionCasillerosEnBlanco ex)
+            catch (CasillerosEnBlancoException ex)
             {
                 MessageBox.Show(ex.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            catch(ExcepcionSucursalNula ex)
+            catch(SucursalNulaException ex)
             {
                 MessageBox.Show(ex.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -164,12 +164,12 @@ namespace FormsTP4
                 }
                 else
                 {
-                    throw new ExcepcionSucursalNula("La sucursal no existe", "FrmAltaSucursal.cs", "AccionDarAlta");
+                    throw new SucursalNulaException("La sucursal no existe", "FrmAltaSucursal.cs", "AccionDarAlta");
                 }              
             }
             else
             {
-                throw new ExcepcionCasillerosEnBlanco("Los campos no pueden estas vacios", "FrmAltaSucursal ", "AccionDarAlta");
+                throw new CasillerosEnBlancoException("Los campos no pueden estas vacios", "FrmAltaSucursal ", "AccionDarAlta");
             }
         }
 

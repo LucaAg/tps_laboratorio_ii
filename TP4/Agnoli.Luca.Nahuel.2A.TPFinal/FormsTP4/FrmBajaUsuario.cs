@@ -60,11 +60,11 @@ namespace FormsTP4
                     AccionConfirmarClick();
                 }
             }
-            catch (ExcepcionPersonaNula ex)
+            catch (PersonaNulaException ex)
             {
                 MessageBox.Show($"{ex.ToString()}", "Persona nula", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            catch(ExcepcionCasillerosEnBlanco ex)
+            catch(CasillerosEnBlancoException ex)
             {
                 MessageBox.Show($"{ex.ToString()}", "Persona nula", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -91,12 +91,12 @@ namespace FormsTP4
                 }
                 else
                 {
-                    throw new ExcepcionPersonaNula("La persona no se encuentra en el sistema o es nula", "FrmClientesActivos.cs", "btnBuscarPorDni_Click");
+                    throw new PersonaNulaException("La persona no se encuentra en el sistema o es nula", "FrmClientesActivos.cs", "btnBuscarPorDni_Click");
                 }              
             }
             else
             {
-                throw new ExcepcionCasillerosEnBlanco("Los campos no pueden estar en blanco o tener espacios", "FrmBajaUsuario", "AccionConfirmarCLick()");
+                throw new CasillerosEnBlancoException("Los campos no pueden estar en blanco o tener espacios", "FrmBajaUsuario", "AccionConfirmarCLick()");
             }
         }
         /// <summary>

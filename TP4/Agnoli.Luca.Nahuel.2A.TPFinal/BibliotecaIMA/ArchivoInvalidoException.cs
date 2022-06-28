@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BibliotecaIMA
 {
-    public class ExcepcionArchivoInvalido : Exception
+    public class ArchivoInvalidoException : Exception
     {
         private string nombreClase;
         private string nombreMetodo;
@@ -17,7 +17,7 @@ namespace BibliotecaIMA
         /// <param name="mensaje">Mensaje de la excepcion</param>
         /// <param name="clase">Clase donde se produce</param>
         /// <param name="metodo">Metodo donde se produce</param>
-        public ExcepcionArchivoInvalido(string mensaje, string clase, string metodo) : this(mensaje, clase, metodo, null)
+        public ArchivoInvalidoException(string mensaje, string clase, string metodo) : this(mensaje, clase, metodo, null)
         {
         }
         /// <summary>
@@ -27,7 +27,7 @@ namespace BibliotecaIMA
         /// <param name="clase">Clase donde se produce</param>
         /// <param name="metodo">Metodo donde se produce</param>
         /// <param name="innerException">Mensaje si se produce una excepcion dentro de otra</param>
-        public ExcepcionArchivoInvalido(string mensaje, string clase, string metodo, Exception innerException)
+        public ArchivoInvalidoException(string mensaje, string clase, string metodo, Exception innerException)
             : base(mensaje, innerException)
         {
             this.nombreClase = clase;
@@ -64,10 +64,10 @@ namespace BibliotecaIMA
             StringBuilder datosStringStr = new StringBuilder();
             datosStringStr.AppendFormat("Excepción en el método {0} de la clase {1}:\n", this.NombreMetodo, this.NombreClase);
             datosStringStr.AppendLine($"{this.Message}");
-            ExcepcionArchivoInvalido miException = this;
+            ArchivoInvalidoException miException = this;
             while (miException.InnerException != null)
             {
-                miException = (ExcepcionArchivoInvalido)miException.InnerException;
+                miException = (ArchivoInvalidoException)miException.InnerException;
                 datosStringStr.AppendFormat("Excepción en el método {0} de la clase {1}:\n", miException.NombreMetodo, miException.NombreClase);
                 datosStringStr.AppendLine($"{miException.Message}\t");
             }

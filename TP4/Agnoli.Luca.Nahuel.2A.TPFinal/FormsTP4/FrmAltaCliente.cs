@@ -137,7 +137,7 @@ namespace FormsTP4
             {
                 AccionDarAltaCLick();
             }
-            catch(ExcepcionCasillerosEnBlanco ex)
+            catch(CasillerosEnBlancoException ex)
             {
                 MessageBox.Show(ex.Message, "Error, no puede poseer casilleros en blanco", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -201,7 +201,7 @@ namespace FormsTP4
             }
             else
             {
-                throw new ExcepcionCasillerosEnBlanco("Los campos no pueden estas vacios", "FrmAltaCliente", "AccionDarAltaCLick");
+                throw new CasillerosEnBlancoException("Los campos no pueden estas vacios", "FrmAltaCliente", "AccionDarAltaCLick");
             }
         }
 

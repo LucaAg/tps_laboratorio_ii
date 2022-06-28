@@ -118,7 +118,7 @@ namespace FormsTP4
                 GuardarArchivoCobertura(rutaImprimir, retornarDatosCobertura());
                 MessageBox.Show("Se han imprimido los datos correctamente", "Impresion exitosa", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            catch(ExcepcionArchivoInvalido ex)
+            catch(ArchivoInvalidoException ex)
             {
                 MessageBox.Show(ex.Message, "Error en el archivo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }        

@@ -51,11 +51,11 @@ namespace FormsTP4
             {
                 AccionBotonConfirmar();
             }
-            catch (ExcepcionCasillerosEnBlanco ex)
+            catch (CasillerosEnBlancoException ex)
             {
                 MessageBox.Show(ex.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            catch(ExcepcionSucursalNula ex)
+            catch(SucursalNulaException ex)
             {
                 MessageBox.Show(ex.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -82,12 +82,12 @@ namespace FormsTP4
                 }
                 else
                 {
-                    throw new ExcepcionSucursalNula("La sucursal no existe", "FrmIdSucursal.cs", "AccionBotonConfirmar");
+                    throw new SucursalNulaException("La sucursal no existe", "FrmIdSucursal.cs", "AccionBotonConfirmar");
                 }             
             }
             else
             {
-                throw new ExcepcionCasillerosEnBlanco("El texto no puede estar en blanco", "FrmModificar.cs", "AccionConfirmarClick");
+                throw new CasillerosEnBlancoException("El texto no puede estar en blanco", "FrmModificar.cs", "AccionConfirmarClick");
             }
         }
 
