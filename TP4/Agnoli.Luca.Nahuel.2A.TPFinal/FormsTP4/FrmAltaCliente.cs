@@ -160,18 +160,26 @@ namespace FormsTP4
                 {
                     if (personasEnSistema.ListaPersonas is not null)
                     {
-                        this.personasEnSistema.ListaPersonas.Add(personaAlta);
-                        if (AdministracionPersonas.checkearPersonaEnLista(personasEnSistema, personaAlta))
+                        if(txtDni.Text.Length == 8)
                         {
-                            listaPersonasImprimir.Guardar($"{this.ruta}", personasEnSistema.ListaPersonas);
-                            MessageBox.Show($"ALTA COMPLETADA\n{personaAlta.ToString()}", "Alta exitosa",
-                                MessageBoxButtons.OK, MessageBoxIcon.Information);
-                            Close();
+                            this.personasEnSistema.ListaPersonas.Add(personaAlta);
+                            if (AdministracionPersonas.checkearPersonaEnLista(personasEnSistema, personaAlta))
+                            {
+                                listaPersonasImprimir.Guardar($"{this.ruta}", personasEnSistema.ListaPersonas);
+                                MessageBox.Show($"ALTA COMPLETADA\n{personaAlta.ToString()}", "Alta exitosa",
+                                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                Close();
+                            }
+                            else
+                            {
+                                MessageBox.Show("Error la persona no esta en la lista", "Error en lista",
+                                MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            }
                         }
                         else
                         {
-                            MessageBox.Show("Error la persona no esta en la lista", "Error en lista",
-                            MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            MessageBox.Show("Error no puede contener menos de 8 caracteres", "Error en lista",
+                                MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
                     }
                     else

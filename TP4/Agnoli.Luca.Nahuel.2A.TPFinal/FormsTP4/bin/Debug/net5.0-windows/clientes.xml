@@ -176,4 +176,26 @@
     </Plan>
     <EstadoPlan>true</EstadoPlan>
   </Persona>
+  <Persona>
+    <Nombre>Luca</Nombre>
+    <Edad>36</Edad>
+    <FechaNacimiento>2022-06-01T00:00:00</FechaNacimiento>
+    <Apellido>Agnoli</Apellido>
+    <Dni>88888888</Dni>
+    <Sexo>Masculino</Sexo>
+    <GrupoSanguineo>B Negativo</GrupoSanguineo>
+    <Direccion>Moreno 123</Direccion>
+    <NumeroTelefonico>1234</NumeroTelefonico>
+    <Plan xsi:type="PlanClasico">
+      <ValorPlan>3500</ValorPlan>
+      <TipoPlan>Plan Clasico</TipoPlan>
+      <ConsultaDomiciliaria>ST</ConsultaDomiciliaria>
+      <ConsultaConsultorio>ST</ConsultaConsultorio>
+      <Kinesiologia>true</Kinesiologia>
+      <FonoAudiologia>false</FonoAudiologia>
+      <InternacionClinica>false</InternacionClinica>
+      <InternacionQuirurgicas>false</InternacionQuirurgicas>
+    </Plan>
+    <EstadoPlan>false</EstadoPlan>
+  </Persona>
 </ArrayOfPersona>
