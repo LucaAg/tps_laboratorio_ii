@@ -1,0 +1,10 @@
+Cerrado: Este sistema le permite acceder a la atención con Profesionales, Centros de Diagnósticos y Sanatorios que figuran en 
+la cartilla bajo las normas de cobertura de su plan.
+Abierto: si usted tiene un plan con reintegros, puede utilizar cualquier otro prestador, además de los de su 
+respectiva cartilla , y solicitar el reintegro respectivo. Este se realizará en los casos que corresponda y valores según tabla de 
+reintegros de cada plan correspondiente al momento de la prestación. La documentación debe contener fecha de prestación, N° de socio IMA, nombre 
+y apellido y prestación brindada. Debe ser realizada en recibo o factura del prestador y con los requisitos que solicita la AFIP y tendrán validez 
+por el término de 30 días desde la fecha de prestación. No debe tener tachaduras ni enmiendas. Apres podrá solicitar información extra inclusive 
+historia clínica en los casos que lo considere necesario. El reintegro puede solicitarse en nuestra sede central o agencias en forma personal .
+Si es por terceros debe adjuntar un pedido formal con nombre y apellido, N° de documento de la autorizada y firmada por el titular.
+

@@ -1,0 +1,17 @@
+[
+  {
+    "Nombre": "IMA Bernal",
+    "NumeroTelefonico": 42598702,
+    "Direccion": "Av. Las Heras 956"
+  },
+  {
+    "Nombre": "IMA Avellaneda",
+    "NumeroTelefonico": 42070022,
+    "Direccion": "Gral Lavalle 781"
+  },
+  {
+    "Nombre": "IMA Berazategui",
+    "NumeroTelefonico": 45867419,
+    "Direccion": "C.137 1958"
+  }
+]
